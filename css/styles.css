@@ -2,6 +2,10 @@ body{
     font-family: 'Muli', sans-serif;
 }
 
+p{
+    color: rgb(117, 117, 117);
+}
+
 .header{
     height: 100vh;
     background-image: url("../images/header-background-bearbeitet.jpg");
@@ -82,7 +86,7 @@ body{
 
 .service{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 
 .service-title{
@@ -91,7 +95,6 @@ body{
 }
 
 .service p {
-    color: rgb(117, 117, 117);
     line-height: 200%;
 }
 
@@ -100,8 +103,83 @@ body{
     font-size: 250px;
     color: darkgrey;
     padding-top: 50px;
+    margin-bottom: -20%;
+    margin-top: -10%;
 }
 
 .service-gray{
     background-color: rgb(249, 249, 249);
+}
+
+.featues{
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+
+.feature-icon{
+    width: 70px;
+    height: 65px;
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom:5px;
+    float: left;
+}
+
+.feature-text{
+    margin-left: 90px;
+}
+
+.feature-text h5{
+    margin-bottom: 10px;
+    font-size: 150%;
+    color: rgb(30, 30, 30);
+    font-weight: bold;
+}
+
+.clients{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(249, 249, 249);
+}
+
+.clients-heading{
+    font-weight: lighter;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.clients-sub-heading{
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+    border-radius: 10000px;
+    border: 5px solid white;
+}
+
+.client-quote{
+    border: 2px solid rgb(235, 235, 235);
+    background-color: white;
+    padding-left: 75px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    padding-right: 75px;
+    border-radius: 3px;
+    font-size: 150%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.client-quote p{
+    margin-bottom: 5px;
+}
+
+.client-author{
+    font-size: 80%;
+    font-style: normal;
+    color: rgb(119, 147, 197);
 }
